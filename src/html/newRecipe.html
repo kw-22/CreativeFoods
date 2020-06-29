@@ -1,0 +1,42 @@
+<!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Propose a Recipe</title>
+        <link rel="stylesheet" type="text/css" href="src/css/newRecipe.css">
+    </head>
+    <body>
+        <h2>Propose a Recipe!</h2>
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="recipeName">Recipe Name</label>
+                <input type="text" id="recipeName" name="recipeName" placeholder="Recipe Name...">
+
+                <label for="prepTime">Preparation Time</label>
+                <input type="text" id="prepTime" name="prepTime" placeholder="Preparation time...">
+
+                <label for="dishType">Type of Food</label>
+                <select id="dishType" name="dishType">
+                    <option value="Appetizer">Appetizer</option>
+                    <option value="Entree">Entree</option>
+                    <option value="Drink">Drink</option>
+                    <option value="Dessert">Dessert</option>
+                </select>
+
+                <label for="ingredients">Ingredients</label>
+                <textarea id="ingredients" name="ingredients" placeholder="List ingredients here...">
+                </textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+        </form>
+
+
+    </body>
+</html>
